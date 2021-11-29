@@ -16,9 +16,6 @@ https://assets.sencrop.com/data-examples/hourly.json for hourly data
 
 You can display these data in a chart and a table.
 
-The x axis must display date \
-The y axis must display the key for the data
-
 ## Available Scripts
 
 In the project directory, you can run:
