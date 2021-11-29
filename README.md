@@ -14,7 +14,7 @@ You can retrieve weather data from these two URLs:
 https://assets.sencrop.com/data-examples/daily.json for daily data \
 https://assets.sencrop.com/data-examples/hourly.json for hourly data
 
-You can display these data in a chart
+You can display these data in a chart and a table.
 
 The x axis must display date \
 The y axis must display the key for the data
