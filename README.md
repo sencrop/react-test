@@ -1,9 +1,8 @@
 # Sencrop Weather Data
 
-The solutions must be implemented in React \
-Otherwise, you are free to use the libraries of your choice
-
-You can also you the tools of your choice
+The solutions can be implemented in React using this starter or some other way.
+You are free to use the libraries of your choice.
+You can also you the tools of your choice.
 
 No pressure about time, what matters the most is code and product quality, not the end result
 
@@ -15,6 +14,14 @@ https://assets.sencrop.com/data-examples/daily.json for daily data \
 https://assets.sencrop.com/data-examples/hourly.json for hourly data
 
 You can display these data in a chart and a table.
+
+## Growing degree days
+
+To estimate the growth and development of plants, we want to calculate the growing degree days for each day: https://en.wikipedia.org/wiki/Growing_degree-day
+The calculation rule is as follows :
+```
+GDD = Tmean - Tbase (with Tbase > 0 and Tmean = (Tmax + Tmin) / 2) 
+```
 
 ## Available Scripts
 
