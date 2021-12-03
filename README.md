@@ -23,6 +23,8 @@ The calculation rule is as follows :
 GDD = Tmean - Tbase (with Tbase > 0 and Tmean = (Tmax + Tmin) / 2) 
 ```
 
+For example, Tbase equal to 6 for maize and 0 for wheat.
+
 ## Available Scripts
 
 In the project directory, you can run:
