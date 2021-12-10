@@ -8,12 +8,11 @@ No pressure about time, what matters the most is code and product quality, not t
 
 ## Weather data
 
-You can retrieve weather data from these two URLs:
+You can retrieve weather data from this URL:
 
 https://assets.sencrop.com/data-examples/daily.json for daily data \
-https://assets.sencrop.com/data-examples/hourly.json for hourly data
 
-You can display these data in a chart and a table.
+You can display the data in a chart and a table for example.
 
 ## Growing degree days
 
