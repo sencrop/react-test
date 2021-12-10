@@ -20,7 +20,7 @@ You can display these data in a chart and a table.
 To estimate the growth and development of plants, we want to calculate the growing degree days for each day: https://en.wikipedia.org/wiki/Growing_degree-day
 The calculation rule is as follows :
 ```
-GDD = Tmean - Tbase (with Tbase > 0 and Tmean = (Tmax + Tmin) / 2) 
+GDD = (Tmax + Tmin) / 2 - Tbase (with Tbase >= 0) 
 ```
 
 For example, Tbase equal to 6 for maize and 0 for wheat.
