@@ -2,27 +2,38 @@
 
 The solutions can be implemented in React using this starter or some other way.
 You are free to use the libraries of your choice.
-You can also you the tools of your choice.
+You can also use the tools of your choice.
 
-No pressure about time, what matters the most is code and product quality, not the end result
+No pressure about time, what matters the most is code and product quality, not the end result :)
 
 ## Weather data
 
 You can retrieve weather data from this URL:
 
-https://assets.sencrop.com/data-examples/daily.json for daily data \
+https://assets.sencrop.com/data-examples/daily.json for daily data.
+
+## React
 
 You can display the data in a chart and a table for example.
 
 ## Growing degree days
 
 To estimate the growth and development of plants, we want to calculate the growing degree days for each day: https://en.wikipedia.org/wiki/Growing_degree-day
+
 The calculation rule is as follows :
+
 ```
-GDD = (Tmax + Tmin) / 2 - Tbase (with Tbase >= 0) 
+GDD = (TMax + TMin) / 2 - TBase
 ```
 
-For example, Tbase equal to 6 for maize and 0 for wheat.
+If `GDD` is negative, then set it to zero.
+
+| Plant | TBase | Flowering |
+|-------|-------|-----------|
+| Maize | 1     | 5         |
+| Wheat | O     | 25        |
+
+For each plant, can you tell use when the plant is flowering, if it does start flowering?
 
 ## Available Scripts
 
