@@ -1,7 +1,7 @@
 import "./App.css";
 
-function App() {
+const App = () => {
   return <div>Sencrop</div>;
-}
+};
 
 export default App;
