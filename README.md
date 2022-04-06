@@ -1,4 +1,4 @@
-# Sencrop Weather Data
+# Sencrop Coding Interview
 
 The solutions can be implemented in React using this starter or some other way.
 You are free to use the libraries of your choice.
