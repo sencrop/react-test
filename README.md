@@ -10,7 +10,7 @@ No pressure about time, what matters the most is code and product quality, not t
 
 You can retrieve weather data from this URL:
 
-https://assets.sencrop.com/data-examples/daily.json for daily data.
+https://sencrop-assets.s3.eu-central-1.amazonaws.com/data-examples/daily.json for daily data.
 
 ## React
 
