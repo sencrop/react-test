@@ -27,7 +27,7 @@ GDD = (TMax + TMin) / 2 - TBase
 with :
 - GGD : Growing degree days
 - TMax : Temperature max of the day
-- TMin : Temperature max of the day
+- TMin : Temperature min of the day
 - TBase : A constant depending of the crop.
 
 If `GDD` is negative, then set it to zero.
