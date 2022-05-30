@@ -6,17 +6,14 @@ You can also use the tools of your choice.
 
 No pressure about time, what matters the most is code and product quality, not the end result :)
 
-## Weather data
+## React : Data fetching and display
 
 You can retrieve weather data from this URL:
-
 https://sencrop-assets.s3.eu-central-1.amazonaws.com/data-examples/daily.json for daily data.
-
-## React
 
 You can display the data in a chart and a table for example.
 
-## Growing degree days
+## Algo : Growing degree days
 
 To estimate the growth and development of plants, we want to calculate the growing degree days for each day: https://en.wikipedia.org/wiki/Growing_degree-day
 
