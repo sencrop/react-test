@@ -25,7 +25,7 @@ The calculation rule is as follows :
 GDD = (TMax + TMin) / 2 - TBase
 ```
 with :
-- GGD : Growing degree days
+- GDD : Growing degree days
 - TMax : Temperature max of the day
 - TMin : Temperature min of the day
 - TBase : A constant depending of the crop.
