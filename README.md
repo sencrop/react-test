@@ -8,29 +8,36 @@ No pressure about time, what matters the most is code and product quality, not t
 
 ## React : Data fetching and display
 
-You can retrieve weather data from this URL:
-https://sencrop-assets.s3.eu-central-1.amazonaws.com/data-examples/daily.json for daily data.
+The goal is to retrieve data from an endpoint and display this data.
+The display can be a chart, a table or something else.
 
-You can display the data in a chart and a table for example.
+You can retrieve the weather data from this URL: https://sencrop-assets.s3.eu-central-1.amazonaws.com/data-examples/daily.json.
 
 ## Algo : Growing degree days
 
-To estimate the growth and development of plants, we want to calculate the growing degree days for each day: https://en.wikipedia.org/wiki/Growing_degree-day
+To estimate the growth and development of plants, we want to calculate the growing degree days for each day: 
+
+https://en.wikipedia.org/wiki/Growing_degree-day
 
 The calculation rule is as follows :
 
 ```
 GDD = (TMax + TMin) / 2 - TBase
 ```
+with :
+- GGD : Growing degree days
+- TMax : Temperature max of the day
+- TMin : Temperature max of the day
+- TBase : A constant depending of the crop.
 
 If `GDD` is negative, then set it to zero.
 
-| Plant | TBase | Flowering |
-|-------|-------|-----------|
-| Maize | 1     | 5         |
-| Wheat | O     | 25        |
+| Crop  | TBase |
+|-------|-------|
+| Maize | 10    |
+| Wheat | 5.5   |
 
-For each plant, can you tell use when the plant is flowering, if it does start flowering?
+# Dev 
 
 ## Available Scripts
 
